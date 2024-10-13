@@ -1,0 +1,22 @@
+[2024-10-13T10:33:18.161+0000] {processor.py:186} INFO - Started process (PID=50379) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-10-13T10:33:18.162+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-10-13T10:33:18.163+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-10-13T10:33:18.165+0000] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-10-13T10:33:18.210+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.209+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_dynamic_task_mapping
+[2024-10-13T10:33:18.214+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.214+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_dynamic_task_mapping
+[2024-10-13T10:33:18.217+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.217+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_dynamic_task_mapping
+[2024-10-13T10:33:18.221+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.220+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_dynamic_task_mapping
+[2024-10-13T10:33:18.223+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.223+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_dynamic_task_mapping
+[2024-10-13T10:33:18.225+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.225+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_dynamic_task_mapping
+[2024-10-13T10:33:18.228+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.228+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_dynamic_task_mapping
+[2024-10-13T10:33:18.228+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.228+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T10:33:18.232+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.232+0000] {dag.py:3262} INFO - Creating ORM DAG for example_dynamic_task_mapping
+[2024-10-13T10:33:18.233+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:18.233+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-10-13T10:33:18.239+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.080 seconds
+[2024-10-13T10:33:48.993+0000] {processor.py:186} INFO - Started process (PID=50868) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-10-13T10:33:48.994+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2024-10-13T10:33:48.994+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:48.994+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-10-13T10:33:48.998+0000] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2024-10-13T10:33:49.007+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:49.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T10:33:49.012+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:49.012+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2024-10-13T10:33:49.019+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.028 seconds

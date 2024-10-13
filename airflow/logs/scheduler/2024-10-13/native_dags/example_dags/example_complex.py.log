@@ -1,0 +1,22 @@
+[2024-10-13T10:33:17.725+0000] {processor.py:186} INFO - Started process (PID=50306) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-10-13T10:33:17.726+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-13T10:33:17.726+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.726+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-10-13T10:33:17.731+0000] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-10-13T10:33:17.775+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.774+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_complex
+[2024-10-13T10:33:17.779+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.779+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_complex
+[2024-10-13T10:33:17.782+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.782+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_complex
+[2024-10-13T10:33:17.788+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.788+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_complex
+[2024-10-13T10:33:17.793+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.793+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_complex
+[2024-10-13T10:33:17.798+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.798+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_complex
+[2024-10-13T10:33:17.803+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.803+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_complex
+[2024-10-13T10:33:17.803+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.803+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T10:33:17.808+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.808+0000] {dag.py:3262} INFO - Creating ORM DAG for example_complex
+[2024-10-13T10:33:17.809+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.809+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-13T10:33:17.816+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.093 seconds
+[2024-10-13T10:33:48.768+0000] {processor.py:186} INFO - Started process (PID=50810) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-10-13T10:33:48.768+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py for tasks to queue
+[2024-10-13T10:33:48.769+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:48.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-10-13T10:33:48.773+0000] {processor.py:925} INFO - DAG(s) 'example_complex' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py
+[2024-10-13T10:33:48.787+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:48.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T10:33:48.792+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:48.792+0000] {dag.py:4180} INFO - Setting next_dagrun for example_complex to None, run_after=None
+[2024-10-13T10:33:48.799+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_complex.py took 0.033 seconds

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862399464515859752/44298d39f9ce46039068ddf32d5eb96c/artifacts
+end_time: 1728819892778
+entry_point_name: ''
+experiment_id: '862399464515859752'
+lifecycle_stage: active
+run_id: 44298d39f9ce46039068ddf32d5eb96c
+run_name: aged-quail-195
+run_uuid: 44298d39f9ce46039068ddf32d5eb96c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728819889958
+status: 3
+tags: []
+user_id: dblab

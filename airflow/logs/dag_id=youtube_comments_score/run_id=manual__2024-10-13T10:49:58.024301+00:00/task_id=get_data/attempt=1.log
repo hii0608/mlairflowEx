@@ -1,0 +1,189 @@
+[2024-10-13T10:49:58.243+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-13T10:49:58.250+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_comments_score.get_data manual__2024-10-13T10:49:58.024301+00:00 [queued]>
+[2024-10-13T10:49:58.253+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_comments_score.get_data manual__2024-10-13T10:49:58.024301+00:00 [queued]>
+[2024-10-13T10:49:58.253+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-13T10:49:58.258+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): get_data> on 2024-10-13 10:49:58.024301+00:00
+[2024-10-13T10:49:58.259+0000] {standard_task_runner.py:72} INFO - Started process 54735 to run task
+[2024-10-13T10:49:58.261+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'youtube_comments_score', 'get_data', 'manual__2024-10-13T10:49:58.024301+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/youtube_comments_score.py', '--cfg-path', '/tmp/tmpw_7gmj6m']
+[2024-10-13T10:49:58.261+0000] {standard_task_runner.py:105} INFO - Job 11: Subtask get_data
+[2024-10-13T10:49:58.291+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_comments_score.get_data manual__2024-10-13T10:49:58.024301+00:00 [running]> on host haserver
+[2024-10-13T10:49:58.327+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='youtube_comments_score' AIRFLOW_CTX_TASK_ID='get_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-13T10:49:58.024301+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-13T10:49:58.024301+00:00'
+[2024-10-13T10:49:58.327+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-13T10:49:58.332+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-13T10:49:58.332+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/dblab/haeun/mlops/ml_***/ex1/scripts/get_data.py']
+[2024-10-13T10:49:58.335+0000] {subprocess.py:86} INFO - Output:
+[2024-10-13T10:50:59.961+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-10-13T10:50:59.962+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connection.py", line 196, in _new_conn
+[2024-10-13T10:50:59.962+0000] {subprocess.py:93} INFO -     sock = connection.create_connection(
+[2024-10-13T10:50:59.963+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.963+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 85, in create_connection
+[2024-10-13T10:50:59.963+0000] {subprocess.py:93} INFO -     raise err
+[2024-10-13T10:50:59.963+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/util/connection.py", line 73, in create_connection
+[2024-10-13T10:50:59.964+0000] {subprocess.py:93} INFO -     sock.connect(sa)
+[2024-10-13T10:50:59.964+0000] {subprocess.py:93} INFO - ConnectionRefusedError: [Errno 111] Connection refused
+[2024-10-13T10:50:59.964+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.964+0000] {subprocess.py:93} INFO - The above exception was the direct cause of the following exception:
+[2024-10-13T10:50:59.964+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.965+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-10-13T10:50:59.965+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+[2024-10-13T10:50:59.965+0000] {subprocess.py:93} INFO -     response = self._make_request(
+[2024-10-13T10:50:59.965+0000] {subprocess.py:93} INFO -                ^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.965+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 495, in _make_request
+[2024-10-13T10:50:59.966+0000] {subprocess.py:93} INFO -     conn.request(
+[2024-10-13T10:50:59.966+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connection.py", line 398, in request
+[2024-10-13T10:50:59.966+0000] {subprocess.py:93} INFO -     self.endheaders()
+[2024-10-13T10:50:59.966+0000] {subprocess.py:93} INFO -   File "/home/dblab/anaconda3/lib/python3.11/http/client.py", line 1289, in endheaders
+[2024-10-13T10:50:59.967+0000] {subprocess.py:93} INFO -     self._send_output(message_body, encode_chunked=encode_chunked)
+[2024-10-13T10:50:59.967+0000] {subprocess.py:93} INFO -   File "/home/dblab/anaconda3/lib/python3.11/http/client.py", line 1048, in _send_output
+[2024-10-13T10:50:59.967+0000] {subprocess.py:93} INFO -     self.send(msg)
+[2024-10-13T10:50:59.967+0000] {subprocess.py:93} INFO -   File "/home/dblab/anaconda3/lib/python3.11/http/client.py", line 986, in send
+[2024-10-13T10:50:59.967+0000] {subprocess.py:93} INFO -     self.connect()
+[2024-10-13T10:50:59.967+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connection.py", line 236, in connect
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -     self.sock = self._new_conn()
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -                 ^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connection.py", line 211, in _new_conn
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -     raise NewConnectionError(
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO - urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7fe61d79ecd0>: Failed to establish a new connection: [Errno 111] Connection refused
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO - The above exception was the direct cause of the following exception:
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/requests/adapters.py", line 667, in send
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -     resp = conn.urlopen(
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 873, in urlopen
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -     return self.urlopen(
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 873, in urlopen
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -     return self.urlopen(
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 873, in urlopen
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -     return self.urlopen(
+[2024-10-13T10:50:59.968+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   [Previous line repeated 2 more times]
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     retries = retries.increment(
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -               ^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/urllib3/util/retry.py", line 519, in increment
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO - urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8088): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=get_data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe61d79ecd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/utils/rest_utils.py", line 189, in http_request
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     return _get_http_response_with_retries(
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/utils/request_utils.py", line 237, in _get_http_response_with_retries
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     return session.request(method, url, allow_redirects=allow_redirects, **kwargs)
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/requests/sessions.py", line 589, in request
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     resp = self.send(prep, **send_kwargs)
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/requests/sessions.py", line 703, in send
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -     r = adapter.send(request, **kwargs)
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.969+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/requests/adapters.py", line 700, in send
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     raise ConnectionError(e, request=request)
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO - requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8088): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=get_data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe61d79ecd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO - During handling of the above exception, another exception occurred:
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO - 
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/scripts/get_data.py", line 13, in <module>
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     mlflow.set_experiment("get_data")
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/tracking/fluent.py", line 145, in set_experiment
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     experiment = client.get_experiment_by_name(experiment_name)
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/tracking/client.py", line 1256, in get_experiment_by_name
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     return self._tracking_client.get_experiment_by_name(name)
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/tracking/_tracking_service/client.py", line 501, in get_experiment_by_name
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     return self.store.get_experiment_by_name(name)
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/store/tracking/rest_store.py", line 519, in get_experiment_by_name
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -     response_proto = self._call_endpoint(GetExperimentByName, req_body)
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.970+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/store/tracking/rest_store.py", line 82, in _call_endpoint
+[2024-10-13T10:50:59.971+0000] {subprocess.py:93} INFO -     return call_endpoint(self.get_host_creds(), endpoint, method, json_body, response_proto)
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO -            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/utils/rest_utils.py", line 365, in call_endpoint
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO -     response = http_request(**call_kwargs)
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO -                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO -   File "/home/dblab/haeun/mlops/ml_***/ex1/venv/lib/python3.11/site-packages/mlflow/utils/rest_utils.py", line 212, in http_request
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO -     raise MlflowException(f"API request to {url} failed with exception {e}")
+[2024-10-13T10:50:59.972+0000] {subprocess.py:93} INFO - mlflow.exceptions.MlflowException: API request to http://localhost:8088/api/2.0/mlflow/experiments/get-by-name failed with exception HTTPConnectionPool(host='localhost', port=8088): Max retries exceeded with url: /api/2.0/mlflow/experiments/get-by-name?experiment_name=get_data (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7fe61d79ecd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+[2024-10-13T10:51:00.034+0000] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-10-13T10:51:00.042+0000] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-10-13T10:51:00.044+0000] {taskinstance.py:1225} INFO - Marking task as UP_FOR_RETRY. dag_id=youtube_comments_score, task_id=get_data, run_id=manual__2024-10-13T10:49:58.024301+00:00, execution_date=20241013T104958, start_date=20241013T104958, end_date=20241013T105100
+[2024-10-13T10:51:00.051+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-13T10:51:00.051+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 11 for task get_data (Bash command failed. The command returned a non-zero exit code 1.; 54735)
+Traceback (most recent call last):
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-10-13T10:51:00.073+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2024-10-13T10:51:00.111+0000] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-13T10:51:00.113+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

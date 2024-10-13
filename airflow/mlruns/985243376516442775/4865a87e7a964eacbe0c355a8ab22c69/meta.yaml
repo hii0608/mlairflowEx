@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/985243376516442775/4865a87e7a964eacbe0c355a8ab22c69/artifacts
+end_time: 1728818251981
+entry_point_name: ''
+experiment_id: '985243376516442775'
+lifecycle_stage: active
+run_id: 4865a87e7a964eacbe0c355a8ab22c69
+run_name: flawless-cod-898
+run_uuid: 4865a87e7a964eacbe0c355a8ab22c69
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728818251103
+status: 3
+tags: []
+user_id: dblab

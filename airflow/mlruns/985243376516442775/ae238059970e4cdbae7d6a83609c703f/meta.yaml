@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/985243376516442775/ae238059970e4cdbae7d6a83609c703f/artifacts
+end_time: 1728818560464
+entry_point_name: ''
+experiment_id: '985243376516442775'
+lifecycle_stage: active
+run_id: ae238059970e4cdbae7d6a83609c703f
+run_name: mercurial-stork-431
+run_uuid: ae238059970e4cdbae7d6a83609c703f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728818559588
+status: 3
+tags: []
+user_id: dblab

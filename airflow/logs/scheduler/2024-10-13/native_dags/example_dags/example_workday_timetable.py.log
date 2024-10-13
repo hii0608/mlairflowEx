@@ -1,0 +1,22 @@
+[2024-10-13T10:33:17.467+0000] {processor.py:186} INFO - Started process (PID=50252) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-10-13T10:33:17.467+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-10-13T10:33:17.468+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-10-13T10:33:17.470+0000] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-10-13T10:33:17.512+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.512+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_workday_timetable
+[2024-10-13T10:33:17.516+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.516+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_workday_timetable
+[2024-10-13T10:33:17.519+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.519+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_workday_timetable
+[2024-10-13T10:33:17.523+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.523+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_workday_timetable
+[2024-10-13T10:33:17.525+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.525+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_workday_timetable
+[2024-10-13T10:33:17.530+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.529+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_workday_timetable
+[2024-10-13T10:33:17.533+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.533+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_workday_timetable
+[2024-10-13T10:33:17.533+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.533+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T10:33:17.538+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.537+0000] {dag.py:3262} INFO - Creating ORM DAG for example_workday_timetable
+[2024-10-13T10:33:17.553+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.553+0000] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2024-10-13T10:33:17.561+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.096 seconds
+[2024-10-13T10:33:47.576+0000] {processor.py:186} INFO - Started process (PID=50756) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-10-13T10:33:47.576+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py for tasks to queue
+[2024-10-13T10:33:47.577+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-10-13T10:33:47.579+0000] {processor.py:925} INFO - DAG(s) 'example_workday_timetable' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py
+[2024-10-13T10:33:47.588+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-13T10:33:47.608+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.608+0000] {dag.py:4180} INFO - Setting next_dagrun for example_workday_timetable to 2021-01-04 00:00:00+00:00, run_after=2021-01-05 00:00:00+00:00
+[2024-10-13T10:33:47.615+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_workday_timetable.py took 0.041 seconds

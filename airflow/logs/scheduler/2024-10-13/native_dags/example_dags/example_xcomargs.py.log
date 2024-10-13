@@ -1,0 +1,32 @@
+[2024-10-13T10:33:17.131+0000] {processor.py:186} INFO - Started process (PID=50210) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-10-13T10:33:17.132+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-10-13T10:33:17.133+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-10-13T10:33:17.137+0000] {processor.py:925} INFO - DAG(s) 'example_xcom_args_with_operators', 'example_xcom_args' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-10-13T10:33:17.182+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.182+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_xcom_args_with_operators
+[2024-10-13T10:33:17.186+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.186+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_xcom_args_with_operators
+[2024-10-13T10:33:17.189+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.189+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_xcom_args_with_operators
+[2024-10-13T10:33:17.193+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.193+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_xcom_args_with_operators
+[2024-10-13T10:33:17.196+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.196+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_xcom_args_with_operators
+[2024-10-13T10:33:17.199+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.199+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_xcom_args_with_operators
+[2024-10-13T10:33:17.203+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.203+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_xcom_args_with_operators
+[2024-10-13T10:33:17.213+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.213+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG:example_xcom_args
+[2024-10-13T10:33:17.216+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.216+0000] {override.py:1900} INFO - Created Permission View: can edit on DAG:example_xcom_args
+[2024-10-13T10:33:17.220+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.220+0000] {override.py:1900} INFO - Created Permission View: can read on DAG:example_xcom_args
+[2024-10-13T10:33:17.227+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.227+0000] {override.py:1900} INFO - Created Permission View: can create on DAG Run:example_xcom_args
+[2024-10-13T10:33:17.230+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.230+0000] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:example_xcom_args
+[2024-10-13T10:33:17.234+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.234+0000] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:example_xcom_args
+[2024-10-13T10:33:17.238+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.238+0000] {override.py:1900} INFO - Created Permission View: can read on DAG Run:example_xcom_args
+[2024-10-13T10:33:17.238+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.238+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-10-13T10:33:17.242+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.242+0000] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args_with_operators
+[2024-10-13T10:33:17.243+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.243+0000] {dag.py:3262} INFO - Creating ORM DAG for example_xcom_args
+[2024-10-13T10:33:17.243+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.243+0000] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-10-13T10:33:17.243+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.243+0000] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-10-13T10:33:17.250+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.121 seconds
+[2024-10-13T10:33:47.411+0000] {processor.py:186} INFO - Started process (PID=50711) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-10-13T10:33:47.411+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py for tasks to queue
+[2024-10-13T10:33:47.412+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.412+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-10-13T10:33:47.416+0000] {processor.py:925} INFO - DAG(s) 'example_xcom_args', 'example_xcom_args_with_operators' retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py
+[2024-10-13T10:33:47.426+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.426+0000] {dag.py:3239} INFO - Sync 2 DAGs
+[2024-10-13T10:33:47.431+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.431+0000] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args to None, run_after=None
+[2024-10-13T10:33:47.432+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.432+0000] {dag.py:4180} INFO - Setting next_dagrun for example_xcom_args_with_operators to None, run_after=None
+[2024-10-13T10:33:47.439+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/example_xcomargs.py took 0.032 seconds

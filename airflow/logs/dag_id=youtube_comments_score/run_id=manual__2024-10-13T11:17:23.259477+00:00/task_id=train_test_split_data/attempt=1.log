@@ -1,0 +1,20 @@
+[2024-10-13T11:17:29.779+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-13T11:17:29.787+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_comments_score.train_test_split_data manual__2024-10-13T11:17:23.259477+00:00 [queued]>
+[2024-10-13T11:17:29.789+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_comments_score.train_test_split_data manual__2024-10-13T11:17:23.259477+00:00 [queued]>
+[2024-10-13T11:17:29.790+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-13T11:17:29.795+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): train_test_split_data> on 2024-10-13 11:17:23.259477+00:00
+[2024-10-13T11:17:29.796+0000] {standard_task_runner.py:72} INFO - Started process 61465 to run task
+[2024-10-13T11:17:29.797+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'youtube_comments_score', 'train_test_split_data', 'manual__2024-10-13T11:17:23.259477+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/youtube_comments_score.py', '--cfg-path', '/tmp/tmpb7qdlv0j']
+[2024-10-13T11:17:29.798+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask train_test_split_data
+[2024-10-13T11:17:29.825+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_comments_score.train_test_split_data manual__2024-10-13T11:17:23.259477+00:00 [running]> on host haserver
+[2024-10-13T11:17:29.858+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='youtube_comments_score' AIRFLOW_CTX_TASK_ID='train_test_split_data' AIRFLOW_CTX_EXECUTION_DATE='2024-10-13T11:17:23.259477+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-13T11:17:23.259477+00:00'
+[2024-10-13T11:17:29.859+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-13T11:17:29.864+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-13T11:17:29.864+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/dblab/haeun/mlops/ml_***/ex1/scripts/train_test_split_data.py']
+[2024-10-13T11:17:29.867+0000] {subprocess.py:86} INFO - Output:
+[2024-10-13T11:17:30.077+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-13T11:17:30.094+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-13T11:17:30.095+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_comments_score, task_id=train_test_split_data, run_id=manual__2024-10-13T11:17:23.259477+00:00, execution_date=20241013T111723, start_date=20241013T111729, end_date=20241013T111730
+[2024-10-13T11:17:30.130+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-13T11:17:30.170+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-13T11:17:30.172+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

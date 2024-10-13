@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862399464515859752/023ab38ca82444659c42d12ff2241b59/artifacts
+end_time: 1728817068340
+entry_point_name: ''
+experiment_id: '862399464515859752'
+lifecycle_stage: active
+run_id: 023ab38ca82444659c42d12ff2241b59
+run_name: crawling-eel-14
+run_uuid: 023ab38ca82444659c42d12ff2241b59
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728817065664
+status: 3
+tags: []
+user_id: dblab

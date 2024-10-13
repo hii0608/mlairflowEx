@@ -1,0 +1,26 @@
+[2024-10-13T11:17:30.492+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-10-13T11:17:30.501+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: youtube_comments_score.train_model manual__2024-10-13T11:17:23.259477+00:00 [queued]>
+[2024-10-13T11:17:30.503+0000] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: youtube_comments_score.train_model manual__2024-10-13T11:17:23.259477+00:00 [queued]>
+[2024-10-13T11:17:30.503+0000] {taskinstance.py:2865} INFO - Starting attempt 1 of 2
+[2024-10-13T11:17:30.509+0000] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): train_model> on 2024-10-13 11:17:23.259477+00:00
+[2024-10-13T11:17:30.510+0000] {standard_task_runner.py:72} INFO - Started process 61506 to run task
+[2024-10-13T11:17:30.511+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'youtube_comments_score', 'train_model', 'manual__2024-10-13T11:17:23.259477+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/youtube_comments_score.py', '--cfg-path', '/tmp/tmpvvfx6sg3']
+[2024-10-13T11:17:30.512+0000] {standard_task_runner.py:105} INFO - Job 27: Subtask train_model
+[2024-10-13T11:17:30.539+0000] {task_command.py:467} INFO - Running <TaskInstance: youtube_comments_score.train_model manual__2024-10-13T11:17:23.259477+00:00 [running]> on host haserver
+[2024-10-13T11:17:30.574+0000] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='admin' AIRFLOW_CTX_DAG_ID='youtube_comments_score' AIRFLOW_CTX_TASK_ID='train_model' AIRFLOW_CTX_EXECUTION_DATE='2024-10-13T11:17:23.259477+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-13T11:17:23.259477+00:00'
+[2024-10-13T11:17:30.574+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-10-13T11:17:30.580+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-10-13T11:17:30.580+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/dblab/haeun/mlops/ml_***/ex1/scripts/train_model.py']
+[2024-10-13T11:17:30.583+0000] {subprocess.py:86} INFO - Output:
+[2024-10-13T11:17:31.958+0000] {subprocess.py:93} INFO - 2024/10/13 11:17:31 WARNING mlflow.models.model: Model logged without a signature and input example. Please set `input_example` parameter when logging the model to auto infer the model signature.
+[2024-10-13T11:17:31.975+0000] {subprocess.py:93} INFO - Successfully registered model 'lr'.
+[2024-10-13T11:17:31.980+0000] {subprocess.py:93} INFO - 2024/10/13 11:17:31 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: lr, version 1
+[2024-10-13T11:17:31.980+0000] {subprocess.py:93} INFO - Created version '1' of model 'lr'.
+[2024-10-13T11:17:31.983+0000] {subprocess.py:93} INFO - 2024/10/13 11:17:31 INFO mlflow.tracking._tracking_service.client: 🏃 View run flawless-cod-898 at: http://localhost:8088/#/experiments/985243376516442775/runs/4865a87e7a964eacbe0c355a8ab22c69.
+[2024-10-13T11:17:31.983+0000] {subprocess.py:93} INFO - 2024/10/13 11:17:31 INFO mlflow.tracking._tracking_service.client: 🧪 View experiment at: http://localhost:8088/#/experiments/985243376516442775.
+[2024-10-13T11:17:32.116+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-10-13T11:17:32.133+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-10-13T11:17:32.134+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=youtube_comments_score, task_id=train_model, run_id=manual__2024-10-13T11:17:23.259477+00:00, execution_date=20241013T111723, start_date=20241013T111730, end_date=20241013T111732
+[2024-10-13T11:17:32.167+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-10-13T11:17:32.220+0000] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-10-13T11:17:32.222+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

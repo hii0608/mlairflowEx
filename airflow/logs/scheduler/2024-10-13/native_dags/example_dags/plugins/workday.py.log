@@ -1,0 +1,10 @@
+[2024-10-13T10:33:17.573+0000] {processor.py:186} INFO - Started process (PID=50264) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-10-13T10:33:17.573+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-10-13T10:33:17.574+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:17.574+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-10-13T10:33:17.575+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-10-13T10:33:17.582+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds
+[2024-10-13T10:33:47.628+0000] {processor.py:186} INFO - Started process (PID=50765) to work on /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-10-13T10:33:47.629+0000] {processor.py:914} INFO - Processing file /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-10-13T10:33:47.629+0000] {logging_mixin.py:190} INFO - [2024-10-13T10:33:47.629+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-10-13T10:33:47.630+0000] {processor.py:927} WARNING - No viable dags retrieved from /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py
+[2024-10-13T10:33:47.637+0000] {processor.py:208} INFO - Processing /home/dblab/haeun/mlops/ml_airflow/ex1/venv/lib/python3.11/site-packages/airflow/example_dags/plugins/workday.py took 0.011 seconds

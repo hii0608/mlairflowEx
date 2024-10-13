@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862399464515859752/1717d12e46484ff68226d38fe6a60303/artifacts
+end_time: 1728817082805
+entry_point_name: ''
+experiment_id: '862399464515859752'
+lifecycle_stage: active
+run_id: 1717d12e46484ff68226d38fe6a60303
+run_name: nebulous-turtle-587
+run_uuid: 1717d12e46484ff68226d38fe6a60303
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728817080092
+status: 3
+tags: []
+user_id: dblab

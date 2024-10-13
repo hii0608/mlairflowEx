@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862399464515859752/9c545965880540bbb6a2156fbb84f288/artifacts
+end_time: 1728819874159
+entry_point_name: ''
+experiment_id: '862399464515859752'
+lifecycle_stage: active
+run_id: 9c545965880540bbb6a2156fbb84f288
+run_name: redolent-skunk-918
+run_uuid: 9c545965880540bbb6a2156fbb84f288
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728819870998
+status: 3
+tags: []
+user_id: dblab

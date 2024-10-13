@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862399464515859752/33e28916bdc1470aaab471d70ecbf340/artifacts
+end_time: 1728817146828
+entry_point_name: ''
+experiment_id: '862399464515859752'
+lifecycle_stage: active
+run_id: 33e28916bdc1470aaab471d70ecbf340
+run_name: calm-ant-886
+run_uuid: 33e28916bdc1470aaab471d70ecbf340
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728817144143
+status: 3
+tags: []
+user_id: dblab

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/985243376516442775/bb414780b01c4a7db0499573dfd9ca36/artifacts
+end_time: 1728819878158
+entry_point_name: ''
+experiment_id: '985243376516442775'
+lifecycle_stage: active
+run_id: bb414780b01c4a7db0499573dfd9ca36
+run_name: incongruous-kite-412
+run_uuid: bb414780b01c4a7db0499573dfd9ca36
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728819877278
+status: 3
+tags: []
+user_id: dblab

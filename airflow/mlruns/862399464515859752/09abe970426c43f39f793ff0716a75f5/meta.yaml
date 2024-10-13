@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/862399464515859752/09abe970426c43f39f793ff0716a75f5/artifacts
+end_time: 1728819828280
+entry_point_name: ''
+experiment_id: '862399464515859752'
+lifecycle_stage: active
+run_id: 09abe970426c43f39f793ff0716a75f5
+run_name: gaudy-jay-139
+run_uuid: 09abe970426c43f39f793ff0716a75f5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728819827040
+status: 4
+tags: []
+user_id: dblab
