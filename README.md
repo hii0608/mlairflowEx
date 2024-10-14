@@ -16,11 +16,5 @@ Airflow에서 DAG(Directed Acyclic Graphs)를 설정해 MLflow 실험을 원활�
 
 https://github.com/v-onuphrienko/MLOPS3.3-AirFlow-MLFlow-
 
-**업로드 위치**
-
-https://github.com/hii0608/mlairflowEx
-
-
-
-
+**자세한 실행 과정**
 https://www.notion.so/Airflow-MLflow-11f76d3e01dc8045aef6f58180e868ba?pvs=4
